@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Travel Blog</title>
+<style type="text/css">
+	
+#nano{text-align: center;}
+
+#cick-munk{font-family: sans-serif; }
+
+.toy{font-weight: bolder;}
+    
+#cunt{font-weight: bold;
+
+	  }
+
+body{font-size: 15px; background-image:url("data:image/png;base64,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");background-size: 100% 100%;}
+
+  p{font-size: 2em
+  	line-height:12em;}
+#yoyo{font-weight: bolder;}
+
+
+</style>
+   
+
+
+</head>
+<body>
+  
+<h1><b id="nano">Travel to Brazil</b></h1>
+
+<h2>Contents:</h2>
+
+<ul>
+	<li><a href="#nick">Regions </a> </li>
+	<li><a href="#cool">Main Cities</a></li>
+	<li><a href="#yoyo">Culture</a></li>
+
+
+</ul>
+<img src="https://upload.wikimedia.org/wikipedia/commons/5/52/Botafogo_banner.jpg">
+ 
+<p><b id="cunt">Brazil</b> (Portuguese: Brasil) is the largest country in South America and the fifth largest in the world. Brazil is an incredibly diverse country, in people, culture, and landscapes—from the famous summer carnaval in Rio de Janeiro, Salvador, Olinda, and Recife to the wild power of nature in the Amazon and Iguaçu Falls. You'll find bustling cities, laid-back beaches, and traditional lifestyles, often right next to each other. Brazilian culture, which varies substantially across the country, comes from an international mix of European colonizers, African and Asian communities (notably in Salvador and São Paulo, respectively), and indigenous influence throughout the country.</p> 
+
+<h3 id="nick">Regions</h3>
+<p><b id="cick-munk">Brazil is the fifth largest country on earth. It is divided into five regions, mainly drawn around state lines, but they also more or less follow natural, economic and cultural borderlines</b><br>
+
+ 	<b>North</b> (Acre, Amapá, Amazonas, Pará, Rondônia, Roraima, Tocantins)
+The Amazon, the rain forest and frontier life, with remarkable Amerindian influence. The state of Mato Grosso in the Center West region (below) is mostly within the Amazon Basin as well.<br>
+ 	<b>Northeast</b> (Alagoas, Bahia, Ceará, Maranhão, Paraíba, Pernambuco, Piauí, Rio Grande do Norte, Sergipe)
+Mostly caipira ("hick") culture, with black culture in Bahia, mingles with early Iberian folklore and Indigenous traditions. This is often considered the country's most beautiful coastline, and has the sunniest and hottest climate; but it is also the country's driest and poorest region. Capital of the "Forró" musical style.<br>
+ 	<b>Central West</b> (Distrito Federal (Federal District), Goiás, Mato Grosso, Mato Grosso do Sul)
+The Pantanal wetlands, great farms, young cities, the cerrado and the Federal District, with its otherworldly modernist architecture. Birthplace of the "sertanejo" music style.<br>
+ 	<b>Southeast</b> (Espirito Santo, Minas Gerais, Rio de Janeiro, São Paulo)
+The cosmopolitan heart of the country. São Paulo and Rio are the largest cities in the country and its economic and industrial hub; there are also some centuries-old colonial towns, especially in Minas Gerais.<br>
+ 	<p> (Rio Grande do Sul, Paraná, Santa Catarina)
+A land of valleys and pampas where a strong gaucho culture (shared with Uruguay and Argentina) meets European influences. It has several mid-size cities and rural settlements. Great German, Italian, Polish and Ukrainian immigration took place in the region during the 19th century.</p>
+
+
+ <h4><b id="cool">Main Cities</b></h4>
+
+
+ <p class="toy"><em>There are following main cities of brazil:</em></p>
+
+<ol>
+	
+<li>Brasília</li>
+<li>Florianópolis </li>
+<li>Fortaleza</li>
+<li>orto Alegre</li>
+<li>São Paulo</li>
+<li>Rio de Janeiro </li>
+</ol>
+
+<h5><b id="yoyo">Culture</b></h5>
+
+<p>Owing to <a id="cunt">Brazil’s</a> continental dimensions, varied geography, history and people, the country’s culture is rich and diverse. It has several regional variations, and in spite of being mostly unified by a single language, some regions are so different from each other that they look like different countries altogether.<br>
+
+Music plays an important part in Brazilian identity. Styles like choro, samba and bossa nova are considered genuinely Brazilian. Caipira music is also in the roots of sertanejo, the national equivalent to country music. MPB stands for Brazilian Popular Music, which mixes several national styles under a single concept. Forró, a north-eastern happy dancing music style, has also become common nationwide. New urban styles include funk - a name given to a dance music genre from Rio's favelas that mixes heavy electronic beats and often raunchy rapping - and techno-brega, a crowd-pleaser in northern states, that fuses romantic pop, dance music and caribbean rhythms</p>
+
+
+
+
+<p>Check out wikipedia to know more about <a href="https://en.wikivoyage.org/wiki/Brazil">Brazil</a></p>
+
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Rio2009-2.JPG/300px-Rio2009-2.JPG">
+
+
+
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Praia_de_Copacabana_na_zona_Sul_da_cidade_do_Rio_de_Janeiro%2C_no_Brasil.jpg/300px-Praia_de_Copacabana_na_zona_Sul_da_cidade_do_Rio_de_Janeiro%2C_no_Brasil.jpg">
+
+
+</body>
+</html>
